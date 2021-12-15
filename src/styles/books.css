@@ -1,0 +1,17 @@
+details {
+  border: 1px dotted black;
+  margin: 6px;
+  padding: 6px;
+}
+
+.details-body {
+  background-color: #eedeff;
+  margin: 4px 0px 2px 12px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
