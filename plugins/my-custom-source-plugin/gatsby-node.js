@@ -1,5 +1,4 @@
 const fetch = require('node-fetch').default
-// import fetch from 'node-fetch';
 
 /**
  * Fetch a list of computer books from Wikipedia, with excerpts
@@ -30,7 +29,6 @@ async function getWikiProgrammingBooks() {
 
     return Object.values(bookResult.query.pages);
 }
-
 
 exports.sourceNodes = async ({ actions, createContentDigest, createNodeId }) => {
     // Arbitrary node type constant
